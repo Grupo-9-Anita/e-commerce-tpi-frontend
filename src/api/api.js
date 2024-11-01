@@ -12,7 +12,9 @@ api.interceptors.request.use(
     // Verifica si la ruta requiere un token
     const isAuthRoute = config.url.includes("/auth/signin");
     const isRegisterRoute = config.url.includes("/auth/signup");
-    if (!isAuthRoute && !isRegisterRoute) {
+    const isProductListRoute = config.url.includes("/product");
+
+    if (!isAuthRoute && !isRegisterRoute && !isProductListRoute) {
       // Obtén el token desde el almacenamiento local o desde el estado de tu aplicación
       const token = localStorage.getItem("token");
 
