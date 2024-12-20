@@ -65,13 +65,13 @@ export const RegisterPage = () => {
         alt="Imagen de bienvenida"
         sx={{
           width: "60vw",
-          height: "100vh",
+          height: "120vh",
         }}
       />
       <Box
         sx={{
           width: "60vw",
-          height: "100vh",
+          height: "120vh",
           padding: 3,
           paddingBottom: 10,
           boxShadow: 3,
