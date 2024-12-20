@@ -109,7 +109,7 @@ export const CartPopup = ({ isVisible, onClose }) => {
                 })}
               </p>
               <p>
-                Descuento (10% a partir de $80,000,000):{" "}
+                Descuento (5% a partir de $1,000,000):{" "}
                 {discount.toLocaleString("en-US", {
                   style: "currency",
                   currency: "USD",
